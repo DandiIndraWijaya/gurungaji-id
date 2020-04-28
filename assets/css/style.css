@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:1205px){
+    body{font-size: 12px;}
+    .input:focus{
+        box-shadow: 0px 0px 4px 4px  #ccc;
+        border-color: #00ccff;
+        font-size: 12px;
+    }
+    .navbar-navcss{display: none;}
+    .hasil-foto{ width: 50px; height: 50px; }
+    .hasil-cari{ font-size: 10px; }
+    .navbarcss{
+        background-color: #fff;
+        overflow: hidden;
+        height: 63px;
+    }
+    #cardcss{
+        border:  1px solid #eee;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0px 2px 2px #ccc;
+        background-color: white;
+        width: 100%;
+        margin: auto;
+    }
+    .waktu-luang{ display: none;}
+    .card-profil{width: 100%;}
+    .huruf-tabel{ font-size: 9px;}
+    .bukti{ height: 100px;}
+    
+}
+
+@media(max-width:900px){
+    #hasil{height: 50px;}
+}
+
+.hasil{height: 90px;}
+
+@media(min-width:1205px){
+    .open-slidecss{display: none;}
+    .garis{display: none;}
+}
+
+body{
+    
+    background-color: #f2f2f2;
+}
+
+.navbarcss{
+    background-color: #fff;
+    overflow: hidden;
+    height: 70px;
+}
+
+.navbarcss a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbarcss ul{
+    margin: 8px 0 0 0;
+    list-style: none;
+}
+
+.navbarcss a:hover{
+    
+    color: black;
+    text-decoration: none;
+}
+
+.side-navcss{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: -250px;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.3s;
+}
+
+.lapisan2{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+   
+}
+
+.side-navcss a{
+    
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+.side-navcss a:hover{
+    color: black;
+}
+
+.side-navcss .btn-close{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    margin-left: 50px;
+}
+
+.ikon{
+    border-radius: 50%;
+    margin-left: 30px;
+    
+}
+
+.ikon-card{
+    border-right: 5px solid #eee; 
+    border-bottom: 1px solid #eee; 
+    border-radius: 8px;
+    padding-bottom: 10px;
+    box-shadow:  2px 2px 0px #ccc;
+}
+#maincss{
+    transition: margin-left 0.5s;
+    padding:20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cardcss{
+    border:  1px solid #eee;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px #ccc;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.profilcard{
+    border-left: 1px solid #eee; 
+    border-bottom: 1px solid #eee; 
+    margin-right: 0;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px #ccc;
+}
+
+.input-fields{
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    color: grey;
+    padding: 10px;
+}
+
+.input:focus{
+    box-shadow: 0px 0px 4px 4px  #ccc;
+    border-color: #00ccff;
+    font-size: 16px;
+}
+
+::placeholder{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.label{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: grey;
+}
+
+.lupa a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:  #ffcc00 ;
+    
+}
+.lupa{
+    margin-bottom: 10px;
+}
+
+
+
+.btn1{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    background-color: #00ccff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn2{
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.akun{
+    color: #ffcc00;
+    font-weight: lighter;
+}
+
+.foto-profil{
+    border-radius: 50%;
+}
+
+.kanan{
+    float: right;
+    margin-right: 0px;
+    margin-top: 3px;
+}
+
+.waktu{
+    width: 35px; 
+    font-size: 12px; 
+    border: none;
+    color: grey; 
+    cursor: pointer
+}
+
+.tmbl-atur{
+    width: 90px; 
+    margin-top: 10px; 
+}
+
+.hari{
+    width: 85px; 
+    font-size: 12px; 
+    border: none; 
+    cursor: pointer;
+  
+}
+
+.tablecss{
+    overflow-x: auto; 
+    display: block
+}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+    color: grey;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+.th1{
+    display: none;
+}
+
+
+.td1{
+    display: none;
+}
+
+.kk {
+    display: none;
+}
